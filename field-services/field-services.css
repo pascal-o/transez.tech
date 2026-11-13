@@ -1,0 +1,33 @@
+/* Field Services page + homepage callout. Uses the site's existing brand colours (#77b856 green, #58585a grey). */
+.fs-hero{background:linear-gradient(55deg,rgba(0,0,0,.62) 7%,rgba(0,0,0,.2) 60%),url(../wp-content/uploads/2019/10/managed-services.jpg) center/cover no-repeat!important;padding:140px 0!important}
+.fs-hero h1,.fs-hero p{text-shadow:0 0 .3em rgba(0,0,0,.5)}
+.fs-tile-row{text-align:center}
+.fs-tile-col{float:none!important;display:inline-block;margin:0 auto!important}
+.fs-tile-col h4 a{color:inherit}
+.fs-hero h1{color:#fff;font-weight:800;font-size:48px;line-height:1.15em}
+.fs-hero p{color:#e4e5e5;font-size:21px;line-height:1.5em;max-width:760px}
+.fs-light{background:#fff!important;padding:50px 0!important}
+.fs-tint{background:rgba(228,229,229,.35)!important;padding:50px 0!important}
+.fs-section h2{font-size:38px;color:#58585a;padding-bottom:14px}
+.fs-section h4{color:#77b856;font-weight:700;padding-bottom:6px}
+.fs-section p,.fs-section li{font-size:18px;line-height:1.55em}
+.fs-section ul{list-style:disc;padding:0 0 10px 22px}
+.fs-grid{display:flex;flex-wrap:wrap;justify-content:center;margin:0 -12px}
+.fs-card{box-sizing:border-box;width:33.333%;padding:12px}
+.fs-card>div{height:100%;box-sizing:border-box;background:#fff;border-top:4px solid #77b856;box-shadow:0 2px 12px rgba(0,0,0,.08);padding:22px 22px 12px}
+.fs-note{border-left:4px solid #77b856;background:rgba(119,184,86,.1);padding:16px 20px;margin-top:20px}
+.fs-note p{padding-bottom:0}
+.fs-cta a.et_pb_button,.fs-hero a.et_pb_button{margin:8px 10px 0 0}
+.fs-callout{background:#58585a!important;padding:46px 0!important}
+.fs-callout h2{color:#fff;font-size:34px;padding-bottom:10px}
+.fs-callout p{color:#e4e5e5;font-size:19px;line-height:1.5em;padding-bottom:16px}
+@media (max-width:980px){.fs-card{width:50%}.fs-hero h1{font-size:38px}}
+@media (max-width:640px){.fs-card{width:100%}.fs-hero{padding:70px 0!important}.fs-hero h1{font-size:30px}.fs-hero p{font-size:18px}.fs-section h2{font-size:28px}}
+.fs-tile-col h4{font-size:23px;line-height:1.1em;font-weight:500;color:#77b856}
+.fs-blurb{transition:transform 300ms ease 0ms,opacity 1400ms ease-in-out 1500ms;cursor:pointer}
+.fs-blurb.fs-prehide{opacity:0}
+.fs-blurb:hover{transform:scale(1.16)!important}
+.fs-blurb .et_pb_main_blurb_image .et_pb_image_wrap{max-width:40%}
+.fs-blurb .et_pb_blurb_container{padding-top:8px}
+@media (prefers-reduced-motion:reduce){.fs-blurb{transition:none}.fs-blurb.fs-prehide{opacity:1}.fs-blurb:hover{transform:none!important}}
+.fs-tile-col h4{line-height:23px;max-width:15em;margin:0 auto;text-wrap:balance}
